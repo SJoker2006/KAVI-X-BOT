@@ -1,7 +1,7 @@
 const fs = require('fs')
 const chalk = require('chalk')
 
-global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~HJU12ZDA#9L3VVnjx631NjI0hgAFlLMTEmjTV0-FLwS6zZevZQEM"
+global.sessionID = process.env.SESSIONID || "KAVI-X-SESSION-ID~e4hAFZ7I#Te4Lj86gACsEkbndzs2U_7ouZLnDvnGhRuZpsjy5uTE"
 global.botname = process.env.BOTNAME || "KAVI-X MD"
 global.ownernumber = process.env.OWNERNUMBER || "94728380062"
 global.ownername = process.env.OWNERNAME || "Cyber Kavi"
@@ -21,3 +21,4 @@ fs.watchFile(file, () => {
     delete require.cache[file]
     require(file)
 })
+
